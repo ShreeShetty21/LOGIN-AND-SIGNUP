@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+  <style>
+    /* Your additional styles here */
+  </style>
+</head>
+<img class="bg-image" src="https://wallpaperset.com/w/full/3/6/8/104824.jpg" alt="Background Image">
+<body>
+    
+  <div class="login-container">
+
+    <form id="loginForm">
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="button" onclick="login()">Login</button>
+      <label for=" ">   </label>
+      <div class="additional-links">
+        <a href="signup.html">Sign Up</a>
+        <!-- Link to the signup page -->
+        <span class="separator"> | </span></b>
+        <a href="#" onclick="forgotPassword()">Forgot Password?</a>
+      </div>
+    </form>
+  </div>
+  
+  <script src="login.js"></script>
+</body>
+</html>

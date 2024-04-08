@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    background-color: #f4f4f4;
+  }
+  
+  .login-container {
+    position: absolute;
+    top: 50%;
+    right: 85%;
+    transform: translate(50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    padding-bottom:10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    margin:10px;
+    
+    padding-bottom:10px;
+ 
+    box-sizing:border-box;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    padding-bottom:5px;
+    padding: top 10px;;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+  
+  .car-info-container {
+    position:relative;
+    top: 30;
+    right: 85%;
+    transform: translate(50%, -50%);
+    color: rgb(253, 254, 254);
+    text-align: center;
+  }
+  

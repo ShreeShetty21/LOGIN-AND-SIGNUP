@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Signup Page</title>
+  <link rel="stylesheet" href="signup.css">
+  <style>
+    /* Your additional styles here */
+    
+  </style>
+  
+
+</head>
+<body>
+  <img class="bgimg" src="https://www.eckellsparks.com/wp-content/uploads/2022/02/street-parking.jpg">
+  <img  class="chat" src="https://media1.giphy.com/media/QwkPqpAtVO892Kuqgw/200.gif?cid=790b7611dlac97d2gfpj31qy5kqhlzklev4pjr56l4wgcdm0&rid=200.gif
+  ">
+  <div class="signup-container">
+    <form id="signupForm">
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+    
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+      <label for="gender">Gender:</label>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+      </div></br>
+      <label>   </label>
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required max="">
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" id="phoneNumber" name="phoneNumber" required pattern="[0-9]{10}">
+      <button type="button" onclick="signup()">Sign Up</button>
+    </form>
+  </div>
+  <script src="signup.js"></script>
+</body>
+<div class="message">
+  
+</div>
+</html>
